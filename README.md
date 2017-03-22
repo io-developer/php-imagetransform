@@ -3,8 +3,6 @@ PHP library for easy image resizing and cropping
 
 ## Requirements
 PHP >= 5.4
-
-Modules:
 - gd
 
 
