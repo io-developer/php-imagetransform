@@ -8,7 +8,7 @@ PHP >= 5.4
 
 ## Usage
 
-```
+```php
 use iodev\Lib\ImageTransform\ImageTransformFactory;
 
 ImageTransformFactory::create()
