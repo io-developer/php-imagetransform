@@ -6,9 +6,11 @@ PHP >= 5.4
 - gd
 
 
-## Usage
+## Example
 
 ```php
+<?php
+
 use iodev\Lib\ImageTransform\ImageTransformFactory;
 
 ImageTransformFactory::create()
