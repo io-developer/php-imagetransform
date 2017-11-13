@@ -1,0 +1,36 @@
+{
+    "name": "io-developer/php-imagetransform",
+    "description": "Library provides image trasformation via GD or other implemented handlers",
+    "keywords": [
+        "php",
+        "image",
+        "images",
+        "trasform",
+        "trasforming",
+        "trasformation",
+        "resize",
+        "resave",
+        "jpeg",
+        "png"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://github.com/io-developer/php-imagetransform",
+    "authors": [
+        {
+            "name": "Sergey Sedyshev",
+            "email": "i.o.developer@gmail.com",
+            "homepage": "https://github.com/io-developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.4",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iodev\\": "src/Iodev/"
+        }
+    }
+}
